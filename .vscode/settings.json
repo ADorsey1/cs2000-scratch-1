@@ -7,6 +7,6 @@
     "workbench.editorAssociations": {
         "{git,gitlens,github}:/**/*.{arr}": "default"
     },
-    "pyret-parley.defaultContext": "dcic2024"
+    "pyret-parley.defaultContext": "url-file(\"https://raw.githubusercontent.com/neu-pdi/cs2000-public-resources/refs/heads/main/static/\",\"cs2000.arr\")"
 }
 
