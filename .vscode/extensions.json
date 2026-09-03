@@ -1,3 +1,4 @@
 {
-  "recommendations": ["PyretProgrammingLanguage.pyret-parley"]
+  "recommendations": ["PyretProgrammingLanguage.pyret-parley"],
+  "unwantedRecommendations": ["ms-python.python", "ms-python.vscode-pylance"]
 }
