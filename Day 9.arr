@@ -44,6 +44,7 @@ newy = transform-column(newx, 'y-coordinate', scale-number)
 closestdistance = transform-column(items2, 'distance',num-to-rational)
 sorted-distance = order-by(closestdistance, 'distance', true)
 get-row(sorted-distance, 0)
+
 fun obfuscate(s :: String) -> String:
 string-repeat("X", string-length(s))
 end
@@ -83,3 +84,5 @@ r["Total-Gross"] - r["Detail"]
 end
 final-total = build-column(no-detail, "total", subtract-detail)
 final-order = order-by(final-total, "total", false)
+
+labeled-plot = labeled-scatter-plot(final-order, "item", "x-coordinate", "y-coordinate")
